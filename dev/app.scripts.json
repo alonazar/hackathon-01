@@ -1,0 +1,44 @@
+{
+  "chunks": {
+    "vendor": [
+      "jquery",
+      "jquery-ui",
+      "bootstrap",
+      "angular",
+      "angular-sanitize",
+      "angular-animate",
+      "angular-ui-router",
+      "angular-resource",
+      "angular-bootstrap",
+      "angular-simple-logger",
+      "angular-google-maps",
+      "lodash"
+    ],
+    "vendor.ui": [     
+    ],
+    "vendor.datatables": [
+    ],
+    "vendor.graphs": [
+    ]
+  },
+  "paths": {
+    "jquery": "bower_components/jquery/dist/jquery.min.js",
+    "jquery-ui": "bower_components/jquery-ui/jquery-ui.min.js",
+    "bootstrap": "bower_components/bootstrap/dist/js/bootstrap.min.js",
+    "angular": "bower_components/angular/angular.min.js",
+    "angular-resource": "bower_components/angular-resource/angular-resource.min.js",
+    "restangular": "bower_components/restangular/dist/restangular.min.js",
+    "angular-sanitize": "bower_components/angular-sanitize/angular-sanitize.min.js",
+    "angular-animate": "bower_components/angular-animate/angular-animate.min.js",
+    "angular-ui-router": "bower_components/angular-ui-router/release/angular-ui-router.min.js",
+    "google-maps": "https://maps.googleapis.com/maps/api/js?v=3.exp",
+    "angular-bootstrap": "bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js",
+    "angular-google-maps": "bower_components/angular-google-maps/dist/angular-google-maps.min.js",
+    "angular-simple-logger": "bower_components/angular-simple-logger/dist/angular-simple-logger.min.js",
+    "angular-easyfb": "bower_components/angular-easyfb/angular-easyfb.min.js",
+    "angular-google-plus": "bower_components/angular-google-plus/dist/angular-google-plus.min.js",
+    "angular-datatables": "bower_components/angular-datatables/dist/angular-datatables.min.js",
+    "angular-datatables.bootstrap":"bower_components/angular-datatables/dist/plugins/bootstrap/angular-datatables.bootstrap.min.js",
+    "lodash": "bower_components/lodash/lodash.min.js"
+  }
+}

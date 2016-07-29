@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+    <head>
+
+        <meta charset="utf-8">
+        <title> RIV App </title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <!-- #CSS Links -->
+        <!-- Basic Styles -->
+        <link rel="stylesheet" type="text/css" media="screen" href="styles/css/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" media="screen" href="styles/css/main.css">
+
+        <!-- #FAVICONS -->
+        <link rel="shortcut icon" href="styles/img/favicon/favicon.ico" type="image/x-icon">
+
+    </head>
+	
+	<body>
+            <span>foo</span>
+                        
+            <!-- ui-view container -->
+            <!--<div data-ui-view="root" data-autoscroll="false"></div>-->
+            <!-- MAIN CONTENT -->
+            <div class="container">
+
+                <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
+                <div data-ui-view="root"></div>
+
+            </div>
+
+            <!-- Use for production after building the project with grunt --> 
+            <script src="build/vendor.js"></script>		
+            <script src="build/app.js"></script>
+
+        </body>
+	
+</html>

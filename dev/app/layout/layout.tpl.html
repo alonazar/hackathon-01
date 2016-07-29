@@ -1,0 +1,20 @@
+<!-- HEADER -->
+<div ng-include="'app/layout/partials/header.tpl.html'" class="placeholder-header"></div>
+<!-- END HEADER -->
+
+<!-- Left panel : Navigation area -->
+<div ng-include="'app/layout/partials/navigation.tpl.html'" class="pull-left"></div>
+<!-- END NAVIGATION -->
+
+<!-- MAIN PANEL -->
+<div id="main" role="main">
+                
+    <div data-ui-view="content" data-autoscroll="false"></div>
+
+</div>
+<!-- END MAIN PANEL -->
+
+<!-- PAGE FOOTER -->
+<div ng-include="'app/layout/partials/footer.tpl.html'"></div>
+
+
