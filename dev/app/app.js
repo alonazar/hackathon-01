@@ -20,7 +20,8 @@ angular.module('app', [
 
     // App
     'app.layout',
-    'app.sample'
+    'app.sample',
+    'app.home'
 ])
 .config(function ($provide, $httpProvider) {
 
