@@ -1,8 +1,8 @@
 
 <div>
     <h2> Results </h2>
-    <ul id="results">
-        <li ng-repeat="result in results">
+    <ul class="no-bullets">
+        <li ng-repeat="result in results | orderBy:'-score'">
             <div class="overview" ng-click="onResultClicked(result.id)">
                 <div class="row">
                     <span class="overview-name">{{result.name}}</span>

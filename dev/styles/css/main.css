@@ -3,7 +3,7 @@ body,html {
     width: 100%;
 }
 
-body,div,html,img,.row,section,span {
+body,div,html,li,img,.row,section,span,ul {
     margin: 0;
     padding: 0;
 }
@@ -36,8 +36,6 @@ section {
     float: left;
     padding-right: 1rem;
 }
-#results {
+ul.no-bullets {
     list-style: none;
 }
-
- 

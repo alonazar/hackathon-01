@@ -9,21 +9,7 @@
                     <span class="overview-name">{{venue.name}}</span>
                     <span style="float: right;">Score: <span class="overview-score">{{venue.score}}</span>/5</span>
                 </div>
-                <!--
-                <div style="margin-top: 1rem;">
-                    <table style="width:calc(100% - (128px + 1rem))">
-                        <tr>
-                            <td>{{venue.contactInfo.address}}</td>
-                            <td>{{venue.contactInfo.phoneNumber}}</td>
-                        </tr>
-                        <tr>
-                            <td>{{venue.contactInfo.email}}</td>
-                            <td>{{venue.contactInfo.url}}</td>
-                        </tr>
-                    </table>
-                </div>
-                -->
-                <ul>
+                <ul class="no-bullets">
                     <li ng-repeat="(key,info) in venue.contactInfo" ng-show="info.length">{{key}}: {{info}}</li>
                 </ul>
             </div>

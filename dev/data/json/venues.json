@@ -2,7 +2,7 @@
     {
         "id":1,
         "name":"Archie Browning Sports Centre",
-        "thumbnail":"data/assets/Archie-Browing-sports-Center-thumb.png",
+        "thumbnail":"data/assets/data/assets/Archie-Browing-sports-Center-thumb.png",
         "community": "Esquimalt",
         "score":"1",
         "contactInfo":{
@@ -38,7 +38,7 @@
     {
         "id":2,
         "name":"Cedar Hill Recreation Centre",
-        "thumbnail":"Cedar-Hill-Recreation-Centre-thumbnail.png",
+        "thumbnail":"data/assets/Cedar-Hill-Recreation Centre-thumbnail.png",
         "community": "Saanich",
         "score":"4.5",
         "contactInfo":{
@@ -71,7 +71,7 @@
     {
         "id":3,
 	"name":"Crystal Garden",
-	"thumbnail":"Crystal-Garden-Thumbnail.png",
+	"thumbnail":"data/assets/Crystal-Garden-Thumbnail.png",
 	"community": "Victoria",
 	"score":"3",
 	"contactInfo":{
@@ -99,7 +99,7 @@
     {
 	"id":4,
 	"name":"Crystal Pool and Fitness Centre",
-	"thumbnail":"crystalpool-thumbnail.jpg",
+	"thumbnail":"data/assets/crystalpool-thumbnail.jpg",
 	"community": "Victoria",
 	"score":"3",
 	"contactInfo":{
@@ -128,9 +128,9 @@
     {
         "id":5,
         "name":"Oak Bay Recreation Centre",
-        "thumbnail":"Oak-Bay-Recreation-Centre-thumbnail.png",
+        "thumbnail":"data/assets/Oak-Bay-Recreation-Centre-thumbnail.png",
         "community": "Oak Bay",
-        "score":"3",
+        "score":"3.5",
         "contactInfo":{
                 "Address":"1975 Bee Street, Victoria BC, V8R 5E6",
                 "Phone":"(250) 595-7946",
@@ -157,7 +157,7 @@
     {
         "id":6,
         "name":"Pacific Institute for Sport Excellence",
-        "thumbnail":"PISE-thumbnail.png",
+        "thumbnail":"data/assets/PISE-thumbnail.png",
         "community": "Saanich",
         "score":"4.5",
         "contactInfo":{
@@ -184,9 +184,9 @@
     {
         "id":7,
         "name":"Saanich Commonwealth Place",
-        "thumbnail":"Saanich-Commonwealth-Place-thumbnail.png",
+        "thumbnail":"data/assets/Saanich-Commonwealth-Place-thumbnail.png",
         "community": "Saanich",
-        "score":"4.5",
+        "score":"5",
         "contactInfo":{
             "Address":"4636 Elk Lake Drive, Victoria  BC, V8Z 5M1",
             "Phone":"(250) 475-7600",
