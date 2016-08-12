@@ -1,26 +1,49 @@
 (function() {
     "use strict";
     
-    var venueService = angular.module('venueService', ['ngResource']);
-        
-    venueService.factory('VenueModel', 
-        function ($resource, $location) {
-            var url = '/data/json/venues.json';
-            return $resource(url,
-                { q: '@q', id: '@id' },
-                { 
-                    get: { method: "GET", isArray:true }, 
-                    query: {
-                        method: 'GET',
-                        isArray: true,
-                        transformResponse: function(data, header) {
-                            var q = $location.search();
-                            console.log(q);
-                          return angular.fromJson(data);
-                        }
-                    }
-                }
-            );
-        });
+    angular.module('venueService', []);
     
+    angular.module('venueService').service('VenueModel', function($http, $q) {
+        var service = this,
+        path = '/data/json/venues.json';
+        function getUrl() {
+            return path;
+        }
+        service.search  = function (query) {
+            var defer   = $q.defer();
+            var svc     = $http.get(getUrl());
+            var words   = query.split(' ');
+            var matches = [];
+            
+            svc.success(function(results) {
+                results.forEach(function(entry) {
+                    if ( words.some(function(item){return (new RegExp('\\s'+ item +'?\\s*', 'i')).test(entry.name);}) ) {
+                        matches.push(entry);
+                    }
+                });
+                defer.resolve(matches);
+            });
+            
+            return defer.promise;
+        };
+        service.fetch   = function (id) {
+            var defer   = $q.defer();
+            var svc     = $http.get(getUrl());
+            
+            svc.success(function(results) {
+                var match = null;
+                results.forEach(function(entry) {
+                    if(entry.id == id) {
+                        match = entry;
+                        return true;
+                    }
+                });
+                
+                if(match) defer.resolve(match);
+                else      defer.reject();     
+            });
+            
+            return defer.promise;
+        };
+    });
 })();
