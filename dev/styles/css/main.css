@@ -1,21 +1,43 @@
-/*
- * It is advised not to edit the smartadmin_production.css
- * as this will override any changes you make in the 
- * later versions of this theme. 
- * 
- * We advise that you use use this CSS to override 
- * SmartAdmin styles. 
- * 
- * Rename the stylesheet to whatever your liking so it will stay
- * unique to you with each update of SmartAdmin.
- */
+body,html {
+    height: 100%;
+    width: 100%;
+}
 
-/*
- * INDEX
- * 
- * - HTML
- * - BODY
- * - CUSTOM STYLES
- */
+body,div,html,img,li,.row,section,span,ul {
+    margin: 0;
+    padding: 0;
+}
+input[type="text"] {
+    text-overflow: ellipsis;
+}
+section {
+    margin-bottom: 2rem;
+}
+.overview {
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    cursor:pointer;
+}
+.overview:hover {
+    background-color: lightsteelblue;
+}
+.overview-name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.overview-region {
+    
+}
+.overview-score {
+    font-size: 2rem;
+}
+.profile-pic {
+    float: left;
+    padding-right: 1rem;
+}
+#results {
+    list-style: none;
+}
 
  

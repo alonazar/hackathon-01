@@ -1,0 +1,17 @@
+
+<div>
+    <h2> Results </h2>
+    <ul id="results">
+        <li ng-repeat="result in results">
+            <div class="overview" ng-click="onResultClicked(result.id)">
+                <div class="row">
+                    <span class="overview-name">{{result.name}}</span>
+                    <span style="float: right;">Score: <span class="overview-score">{{result.score}}</span>/5</span>
+                </div>
+                <div class="row">
+                    <span class="overview-region">{{result.region}}</span>
+                </div>
+            </div>
+        </li> 
+    </ul>
+</div>

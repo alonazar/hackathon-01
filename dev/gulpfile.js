@@ -65,7 +65,7 @@ gulp.task('watch', function(){
 gulp.task('connect', function() {
     connect.server({
         port: 8888,
-        host: '192.168.0.106'
+        host: '192.168.3.122'
     });
 });
 

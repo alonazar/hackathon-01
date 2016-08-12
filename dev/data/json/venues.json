@@ -1,0 +1,129 @@
+[
+    {
+        "id": 1,
+        "name": "",
+        "region": "",
+        "score": "", 
+        "contactInfo": {
+            "address": "",
+            "phoneNumber": "",
+            "email": "",
+            "url": ""
+        },
+        "thumbnail": "",
+        "loc": {
+            "lat": 0,
+            "lon": 0
+        },
+        "description": ""
+    },
+    {
+        "id": 2,
+        "name": "",
+        "region": "",
+        "score": "", 
+        "contactInfo": {
+            "address": "",
+            "phoneNumber": "",
+            "email": "",
+            "url": ""
+        },
+        "thumbnail": "",
+        "loc": {
+            "lat": 0,
+            "lon": 0
+        },
+        "description": ""
+    },
+    {
+        "id": 3,
+        "name": "",
+        "region": "",
+        "score": "", 
+        "contactInfo": {
+            "address": "",
+            "phoneNumber": "",
+            "email": "",
+            "url": ""
+        },
+        "thumbnail": "",
+        "loc": {
+            "lat": 0,
+            "lon": 0
+        },
+        "description": ""
+    },
+    {
+        "id": 4,
+        "name": "",
+        "region": "",
+        "score": "", 
+        "contactInfo": {
+            "address": "",
+            "phoneNumber": "",
+            "email": "",
+            "url": ""
+        },
+        "thumbnail": "",
+        "loc": {
+            "lat": 0,
+            "lon": 0
+        },
+        "description": ""
+    },
+    {
+        "id": 5,
+        "name": "",
+        "region": "",
+        "score": "", 
+        "contactInfo": {
+            "address": "",
+            "phoneNumber": "",
+            "email": "",
+            "url": ""
+        },
+        "thumbnail": "",
+        "loc": {
+            "lat": 0,
+            "lon": 0
+        },
+        "description": ""
+    },
+    {
+        "id": 6,
+        "name": "",
+        "region": "",
+        "score": "", 
+        "contactInfo": {
+            "address": "",
+            "phoneNumber": "",
+            "email": "",
+            "url": ""
+        },
+        "thumbnail": "",
+        "loc": {
+            "lat": 0,
+            "lon": 0
+        },
+        "description": ""
+    },
+    {
+        "id": 7,
+        "name": "",
+        "region": "",
+        "score": "", 
+        "contactInfo": {
+            "address": "",
+            "phoneNumber": "",
+            "email": "",
+            "url": ""
+        },
+        "thumbnail": "",
+        "loc": {
+            "lat": 0,
+            "lon": 0
+        },
+        "description": ""
+    }
+    
+]

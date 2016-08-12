@@ -17,6 +17,8 @@ angular.module('app', [
 
     // RIV Angular Common Module
     'RIV',
+    
+    'venueService',
 
     // App
     'app.layout',

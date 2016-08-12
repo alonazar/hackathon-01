@@ -1,0 +1,38 @@
+
+<div>
+    <h2>Details</h2>
+    <section title="Profile">
+        <div class="row">
+            <img class="profile-pic" src="{{venue.thumbnail}}" alt="venue thumbnail" width="128" height="128" />
+            <div>
+                <div>
+                    <span class="overview-name">{{venue.name}}</span>
+                    <span style="float: right;">Score: <span class="overview-score">{{venue.score}}</span>/5</span>
+                </div>
+                <div style="margin-top: 1rem;">
+                    <table style="width:calc(100% - (128px + 1rem))">
+                        <tr>
+                            <td>{{venue.contactInfo.address}}</td>
+                            <td>{{venue.contactInfo.phoneNumber}}</td>
+                        </tr>
+                        <tr>
+                            <td>{{venue.contactInfo.email}}</td>
+                            <td>{{venue.contactInfo.url}}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section  title="Map">
+        <div map-lazy-load="https://maps.google.com/maps/api/js">
+            <ng-map center="venue.loc.lat, venue.loc.lon" zoom="3"></ng-map>
+        </div>
+    </section>
+    <section title="Description">
+        <div>
+            <h2>Description</h2>
+            {{venue.description}}
+        </div>
+    </section>
+</div>

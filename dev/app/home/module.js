@@ -2,7 +2,9 @@
 
 angular.module('app.home', [
         'ui.router',
-        'ngResource'
+        'ngResource',
+        'venueService',
+        'ngMap'
     ]);
 
 angular.module('app.home').config(function ($stateProvider) {
@@ -30,6 +32,32 @@ angular.module('app.home').config(function ($stateProvider) {
                 },
                 data:{
                     title: 'Searching'
+                }
+            })
+            .state('app.home.results', {
+                url: '/results/:q',
+                controller: 'ResultsController',
+                views: {
+                    "content@app": {
+                        controller: 'ResultsController',
+                        templateUrl: 'app/home/views/results.html'
+                    }
+                },
+                data:{
+                    title: 'Search Results'
+                }
+            })
+            .state('app.home.details', {
+                url: '/details/:id',
+                controller: 'DetailsController',
+                views: {
+                    "content@app": {
+                        controller: 'DetailsController',
+                        templateUrl: 'app/home/views/details.html'
+                    }
+                },
+                data:{
+                    title: 'Details'
                 }
             });
     });
