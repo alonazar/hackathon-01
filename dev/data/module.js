@@ -14,10 +14,10 @@
             var svc     = $http.get(getUrl());
             var words   = query.split(' ');
             var matches = [];
-            
+            console.log(words);
             svc.success(function(results) {
                 results.forEach(function(entry) {
-                    if ( words.some(function(item){return (new RegExp('\\s'+ item +'?\\s*', 'i')).test(entry.name);}) ) {
+                    if (words.some(function(item){return (new RegExp(item, 'i')).test(entry.name);}) ) {
                         matches.push(entry);
                     }
                 });

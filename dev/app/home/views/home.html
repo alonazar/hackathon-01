@@ -3,7 +3,7 @@
     <h2> Home </h2>
         <form name="searchForm" class="search-form" ng-controller="SearchFormController" ng-submit="submit()">
             <div class="row">
-                <input type="text" placeholder="Enter search term (e.g. Oak Bay Rec)" ng-model="searchTerm" />
+                <input type="text" placeholder="Enter search term" ng-model="searchTerm" />
                 <input type="submit" value="Search" ng-disabled="!searchTerm.length"/>
             </div>
         </form>

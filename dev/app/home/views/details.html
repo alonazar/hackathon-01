@@ -27,9 +27,21 @@
             <ul>
                 <li ng-repeat="activity in venue.activities">{{activity}}</li>
             </ul>
-            <h3>Accessibility Features</h3>
+            <h3>Accessibility Overview</h3>
+            <table style="text-align: center;">
+                <tr>
+                    <th>Parking</th>
+                    <th>Entrance</th>
+                    <th>Restroom</th>
+                    <th>Braille</th>
+                </tr>
+                <tr>
+                    <td ng-repeat="feature in venue.overview" style="color:{{feature ? 'green' : 'red'}}; font-size: 2rem">{{feature ? "&#10004;" : "&#10008;"}}</td>
+                </tr>
+            </table>
+            <h3 ng-show="venue.details.length">Accessibility Details</h3>
             <ul>
-                <li ng-repeat="feature in venue.features">{{feature}}</li>
+                <li ng-repeat="detail in venue.details">{{detail}}</li>
             </ul>
         </div>
     </section>
