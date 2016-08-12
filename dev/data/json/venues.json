@@ -31,9 +31,13 @@
             "Trade Shows/Conventions",
             "Wedding Receptions/Banquets"
         ],
-        "features": [
-            "Accessible parking spaces"
-        ]
+        "overview": {
+            "parking": true,
+            "entrance": true,
+            "restroom": false,
+            "braille": false
+        },
+        "details": []
     },
     {
         "id":2,
@@ -56,7 +60,13 @@
             "Aquatics",
             "Rowing"        
         ],
-        "features": [
+        "overview": {
+            "parking": true,
+            "entrance": true,
+            "restroom": true,
+            "braille": false
+        },
+        "details": [
             "Accessible parking spaces",
             "Accessible washrooms",
             "Accessible weight room with adapted equipment",
@@ -89,10 +99,13 @@
             "Aquatics",
             "Basketball"
 	],
-	"features":[
-            "Accessible parking spaces",
-            "Ramps",
-            "Accessible washrooms",
+        "overview": {
+            "parking": false,
+            "entrance": true,
+            "restroom": true,
+            "braille": false
+        },
+	"details": [
             "Wheelchair lift"
         ]
     },
@@ -118,12 +131,13 @@
             "Skating",
             "Music"
 	],
-        "features":[
-            "Accessible parking spaces",
-            "Ramps",
-            "Accessible washrooms"
-        ]
-
+        "overview": {
+            "parking": true,
+            "entrance": true,
+            "restroom": true,
+            "braille": false
+        },
+        "details": []
     },
     {
         "id":5,
@@ -148,11 +162,13 @@
             "Tennis",
             "Skating"
         ],
-        "features":[
-            "Accessible parking spaces",
-            "Ramps",
-            "Accessible washrooms"
-        ]
+        "overview": {
+            "parking": true,
+            "entrance": true,
+            "restroom": true,
+            "braille": false
+        },
+        "details": []
     },
     {
         "id":6,
@@ -175,11 +191,13 @@
             "Music",
             "Basketball"
         ],
-        "features":[
-            "Accessible parking spaces",
-            "Ramps",
-            "Accessible washrooms"
-        ]
+        "overview": {
+            "parking": true,
+            "entrance": true,
+            "restroom": true,
+            "braille": false
+        },
+        "details": []
     },
     {
         "id":7,
@@ -201,7 +219,13 @@
             "Arts",
             "Aquatics"
         ],
-        "features":[
+        "overview": {
+            "parking": true,
+            "entrance": true,
+            "restroom": true,
+            "braille": true
+        },
+        "details": [
             "Accessible washrooms and change rooms",
             "Accessible parking spaces",
             "Accessible electronic entry/ramps ",
