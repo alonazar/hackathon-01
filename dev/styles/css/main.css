@@ -3,7 +3,7 @@ body,html {
     width: 100%;
 }
 
-body,div,html,img,li,.row,section,span,ul {
+body,div,html,img,.row,section,span {
     margin: 0;
     padding: 0;
 }

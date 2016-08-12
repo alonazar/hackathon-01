@@ -7,7 +7,7 @@ angular.module('app.home').controller('ResultsController', function ($scope, $lo
     });
         
     $scope.onResultClicked = function(id) {
-        console.log("results-controller.onResultClicked(%s)",id);
+        console.log("results-controller.onResultClicked(id=%s)",id);
         $state.go('app.home.details', {id:id});
     }
 });

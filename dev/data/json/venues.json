@@ -1,129 +1,218 @@
 [
     {
-        "id": 1,
-        "name": "",
-        "region": "",
-        "score": "", 
-        "contactInfo": {
-            "address": "",
-            "phoneNumber": "",
-            "email": "",
-            "url": ""
+        "id":1,
+        "name":"Archie Browning Sports Centre",
+        "thumbnail":"data/assets/Archie-Browing-sports-Center-thumb.png",
+        "community": "Esquimalt",
+        "score":"1",
+        "contactInfo":{
+            "Address":"1151 Esquimalt Road, Esquimalt  BC, V9A 3N6",
+            "Phone":"(250) 412-8510",
+            "URL": "",
+            "Email": ""
         },
-        "thumbnail": "",
-        "loc": {
-            "lat": 0,
-            "lon": 0
+        "loc":{
+            "lat":48.42942837,
+            "lon":-123.40908051
         },
-        "description": ""
+        "activities":[
+            "Hockey",
+            "Figure skating",
+            "Speed skating",
+            "CURLing",
+            "Broomball",
+            "Skating lessons",
+            "Ball hockey",
+            "Roller hockey",
+            "Concerts",
+            "Lacrosse",
+            "Rollerderby",
+            "Large meetings/Conferences",
+            "Trade Shows/Conventions",
+            "Wedding Receptions/Banquets"
+        ],
+        "features": [
+            "Accessible parking spaces"
+        ]
     },
     {
-        "id": 2,
-        "name": "",
-        "region": "",
-        "score": "", 
-        "contactInfo": {
-            "address": "",
-            "phoneNumber": "",
-            "email": "",
-            "url": ""
+        "id":2,
+        "name":"Cedar Hill Recreation Centre",
+        "thumbnail":"Cedar-Hill-Recreation-Centre-thumbnail.png",
+        "community": "Saanich",
+        "score":"4.5",
+        "contactInfo":{
+                "Address":"3220 Cedar Hill Road, Victoria BC, V8P 3Y3",
+                "Phone":"(250) 475-7121",
+                "URL": "",
+                "Email": ""
         },
-        "thumbnail": "",
-        "loc": {
-            "lat": 0,
-            "lon": 0
+        "loc":{
+                "lat":48.44941468,
+                "lon":-123.3440423
         },
-        "description": ""
+        "activities":[
+            "Arts",
+            "Aquatics",
+            "Rowing"        
+        ],
+        "features": [
+            "Accessible parking spaces",
+            "Accessible washrooms",
+            "Accessible weight room with adapted equipment",
+            "Covered entrance",
+            "Wheelchair access to gymnasium, tennis courts, and squash courts",
+            "Designated handyDART loading zone and disabled parking stalls",
+            "Accessible picnic tables",
+            "Adjustable height art tables and pottery wheels",
+            "Ramp access to dance studio"
+        ]
     },
     {
-        "id": 3,
-        "name": "",
-        "region": "",
-        "score": "", 
-        "contactInfo": {
-            "address": "",
-            "phoneNumber": "",
-            "email": "",
-            "url": ""
-        },
-        "thumbnail": "",
-        "loc": {
-            "lat": 0,
-            "lon": 0
-        },
-        "description": ""
+        "id":3,
+	"name":"Crystal Garden",
+	"thumbnail":"Crystal-Garden-Thumbnail.png",
+	"community": "Victoria",
+	"score":"3",
+	"contactInfo":{
+		"Address":"720 Douglas Street, Victoria BC, V8W 3M7",
+                "Phone":"(250) 361-1000",
+		"URL":"",
+                "Email":"Sales@VictoriaConference.com"
+	},
+        "loc":{
+            "lat":48.42156122,
+            "lon":-123.36622953
+	},
+	"activities":[
+            "Arts",
+            "Aquatics",
+            "Basketball"
+	],
+	"features":[
+            "Accessible parking spaces",
+            "Ramps",
+            "Accessible washrooms",
+            "Wheelchair lift"
+        ]
     },
     {
-        "id": 4,
-        "name": "",
-        "region": "",
-        "score": "", 
-        "contactInfo": {
-            "address": "",
-            "phoneNumber": "",
-            "email": "",
-            "url": ""
-        },
-        "thumbnail": "",
-        "loc": {
-            "lat": 0,
-            "lon": 0
-        },
-        "description": ""
+	"id":4,
+	"name":"Crystal Pool and Fitness Centre",
+	"thumbnail":"crystalpool-thumbnail.jpg",
+	"community": "Victoria",
+	"score":"3",
+	"contactInfo":{
+		"Address":"72275 Quadra Street, Victoria BC",
+                "Phone":"250.361.0732",
+		"URL":"",
+                "Email":""
+	},
+        "loc":{
+		"lat":48.43317284,
+		"lon":-123.35801125
+	},
+	"activities":[
+            "Arts",	
+            "Tennis",
+            "Skating",
+            "Music"
+	],
+        "features":[
+            "Accessible parking spaces",
+            "Ramps",
+            "Accessible washrooms"
+        ]
+
     },
     {
-        "id": 5,
-        "name": "",
-        "region": "",
-        "score": "", 
-        "contactInfo": {
-            "address": "",
-            "phoneNumber": "",
-            "email": "",
-            "url": ""
+        "id":5,
+        "name":"Oak Bay Recreation Centre",
+        "thumbnail":"Oak-Bay-Recreation-Centre-thumbnail.png",
+        "community": "Oak Bay",
+        "score":"3",
+        "contactInfo":{
+                "Address":"1975 Bee Street, Victoria BC, V8R 5E6",
+                "Phone":"(250) 595-7946",
+                "URL":"",
+                "Email":""
         },
-        "thumbnail": "",
-        "loc": {
-            "lat": 0,
-            "lon": 0
+        "loc":{
+            "lat":48.43116538,
+            "lon":-123.32063198
         },
-        "description": ""
+        "activities":[
+            "Arts",
+            "Aquatics",
+            "Roawing",
+            "Tennis",
+            "Skating"
+        ],
+        "features":[
+            "Accessible parking spaces",
+            "Ramps",
+            "Accessible washrooms"
+        ]
     },
     {
-        "id": 6,
-        "name": "",
-        "region": "",
-        "score": "", 
-        "contactInfo": {
-            "address": "",
-            "phoneNumber": "",
-            "email": "",
-            "url": ""
+        "id":6,
+        "name":"Pacific Institute for Sport Excellence",
+        "thumbnail":"PISE-thumbnail.png",
+        "community": "Saanich",
+        "score":"4.5",
+        "contactInfo":{
+                "Address":"4371 Interurban Rd, Victoria BC, V9E 2C5",
+                "Phone":"(250) 220-2510",
+                "URL":"",
+                "Email":""
         },
-        "thumbnail": "",
-        "loc": {
-            "lat": 0,
-            "lon": 0
+        "loc":{
+            "lat":48.48772825,
+            "lon":-123.4135437
         },
-        "description": ""
+        "activities":[
+            "Arts",
+            "Music",
+            "Basketball"
+        ],
+        "features":[
+            "Accessible parking spaces",
+            "Ramps",
+            "Accessible washrooms"
+        ]
     },
     {
-        "id": 7,
-        "name": "",
-        "region": "",
-        "score": "", 
-        "contactInfo": {
-            "address": "",
-            "phoneNumber": "",
-            "email": "",
-            "url": ""
+        "id":7,
+        "name":"Saanich Commonwealth Place",
+        "thumbnail":"Saanich-Commonwealth-Place-thumbnail.png",
+        "community": "Saanich",
+        "score":"4.5",
+        "contactInfo":{
+            "Address":"4636 Elk Lake Drive, Victoria  BC, V8Z 5M1",
+            "Phone":"(250) 475-7600",
+            "URL":"",
+            "Email":""
         },
-        "thumbnail": "",
-        "loc": {
-            "lat": 0,
-            "lon": 0
+        "loc":{
+            "lat":48.50108069,
+            "lon":-123.38848114
         },
-        "description": ""
-    }
-    
+        "activities":[
+            "Arts",
+            "Aquatics"
+        ],
+        "features":[
+            "Accessible washrooms and change rooms",
+            "Accessible parking spaces",
+            "Accessible electronic entry/ramps ",
+            "3 wheelchair accessible family change rooms with lifts",
+            "Accessible weight room with adapted equipment",
+            "Aquatic wheelchairs on deck",
+            "Covered entrance",
+            "Designated handyDART loading zone",
+            "Elevator to weight room and lower floor",
+            "Overhead lift with sling providing access to tots pool and hot tub",
+            "Pool lift providing access to teach pool, dive tank and competition pool"
+        ]
+  }
 ]
