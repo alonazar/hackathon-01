@@ -1,6 +1,0 @@
-You found the repo and went through its history. Nice.
-Not many people get this far.
-
-One more wave. It's base64; you'll know what to do.
-
-aHR0cHM6Ly9naXN0LmdpdGh1Yi5jb20vYWxvbmF6YXIvOTUyMGZlNTg5ODYzM2NkZGQwNmY3MjJlYjcxNDNmZDE=
